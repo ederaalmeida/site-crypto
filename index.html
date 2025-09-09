@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Crypto App :.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- busca e alarme-->
+    <div class="container">
+      <div class="row mt-2 mb-3">
+        <div class="col-12 text-end">
+          <i class="fa-solid fa-magnifying-glass fa-2x mx-2"></i>
+          <i class="fa-regular fa-bell fa-2x mx-1"></i>
+        </div>
+      </div>
+    </div>
+    <!--saldo-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div id="balance">
+            <img src="img/assets/btc2.png" alt="" srcset="">
+            <p>Seu saldo</p>
+            <h2>$ 15.830,27</h2>
+            <p class="mt-5">
+              <i class="fa-solid fa-arrow-trend-up"></i> $1.830,00 de lucro
+            </p>
+            <img src="img/assets/btc1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top moedas-->
+    <div class="container mt-3 mb-5">
+      <div class="row">
+        <div class="col-8">
+          <h4>Top Ativos</h4>
+        </div>
+        <div class="col-4 text-end">
+          <p class="legenda">Veja tudo</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="moeda">
+            <i class="fa-brands fa-bitcoin fa-2x"></i
+            ><span class="titulo-moeda">Bitcoin</span>
+            <h4 class="valor">$ 45.898,16</h4>
+            <p class="lucratividade">
+              24,55%
+              <i class="fa-solid fa-caret-up"></i>
+            </p>
+            <img
+              src="/img/assets/Chart line.png"
+              alt=""
+              srcset=""
+              width="100%"
+            />
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="moeda">
+            <i class="fa-brands fa-ethereum fa-2x"></i
+            ><span class="titulo-moeda">Ethereum</span>
+            <h4 class="valor">$ 5.898,16</h4>
+            <p class="lucratividade">
+              2,55%
+              <i class="fa-solid fa-caret-up"></i>
+            </p>
+            <img
+              src="/img/assets/Chart line.png"
+              alt=""
+              srcset=""
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- noticias-->
+    <div class="container mt-3 mb-5">
+      <div class="row">
+        <div class="col-8">
+          <h4>Noticias</h4>
+        </div>
+        <div class="col-4 text-end">
+          <p class="legenda">Veja tudo</p>
+        </div>
+      </div>
+      <div class="row noticia">
+        <div class="col-3">
+          <img src="img/assets/Mask group.png" alt="" srcset="" width="100%" />
+        </div>
+        <div class="col-9">
+          <p class="texto-noticia">
+            Analysts project 32% upside for Coinbas stock
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- rodape com menu opcoes-->
+    <div class="container-fluid" id="footer mt-3">
+      <div class="row pt-3">
+        <div class="col-2 text-center p-2">
+          <div class="item-menu">
+            <i class="fa-solid fa-house"></i>
+            <p class="menu">Home</p>
+          </div>
+        </div>
+        <div class="col-2 text-center p-2">
+          <div class="item-menu">
+            <i class="fa-solid fa-chart-simple"></i>
+            <p class="menu">Marketing</p>
+          </div>
+        </div>
+        <div class="col-4 text-center p-2">
+          <div id="plus">+</div>
+        </div>
+        <div class="col-2 text-center p-2">
+          <div class="item-menu">
+            <i class="fa-solid fa-chart-pie"></i>
+            <p class="menu">Portifólio</p>
+          </div>
+        </div>
+        <div class="col-2 text-center p-2">
+          <div class="item-menu">
+            <i class="fa-solid fa-gear"></i>
+            <p class="menu">Settings</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
